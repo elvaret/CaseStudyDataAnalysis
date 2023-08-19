@@ -3,8 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 import seaborn as sns
+import os
 
-data_day = pd.read_csv("/home/elvaret/DataAnalyst_Dicoding/BikeDataset/day.csv")
+data_path = os.path.join(os.getcwd(), "BikeDataset/day.csv")
+data_day = pd.read_csv(data_path)
 st.title('Bike Sharing Data Analysis Dashboard')
 analysis_option = st.sidebar.selectbox('Choose Analysis', ['Trends Over Time', 'Weather Correlation', 'Clustering'])
 st.set_option('deprecation.showPyplotGlobalUse', False)
