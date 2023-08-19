@@ -1,0 +1,5 @@
+{
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black"
+}
