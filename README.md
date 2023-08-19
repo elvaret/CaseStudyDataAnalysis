@@ -14,3 +14,6 @@ pip install numpy pandas scipy matplotlib scikit-learn seaborn jupyter streamlit
 ``` 
 streamlit run dashboard.py
 ```
+
+## Run dashboard on streamlit cloud
+https://casestudydataanalysis-jxwgbvcakhjuu5mnxpngrt.streamlit.app/
