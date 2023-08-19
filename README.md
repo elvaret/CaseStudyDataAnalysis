@@ -17,3 +17,8 @@ streamlit run dashboard.py
 
 ## Run dashboard on streamlit cloud
 https://casestudydataanalysis-jxwgbvcakhjuu5mnxpngrt.streamlit.app/
+
+## Screenshot Dashboard
+![Trends Over Time](TrendsOverTime.png)
+![Weather Correlation](WeatherCorrelation.png)
+![K-Means Clustering](KMeans.png)
